@@ -2,7 +2,7 @@ import classes from "./hero.module.css";
 import Image from "next/image";
 export default function Hero() {
   return (
-    <section className="${classes.hero}">
+    <section className={classes.hero}>
       <div className={classes.image}>
         {" "}
         <Image
