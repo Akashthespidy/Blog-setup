@@ -3,7 +3,7 @@ import MainNavigation from "./mainNavigation";
 export default function Layout(props) {
   return (
     <Fragment>
-      <mainNavigation />
+      <MainNavigation />
       <main>{props.children}</main>
     </Fragment>
   );
